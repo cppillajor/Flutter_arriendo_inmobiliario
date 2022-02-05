@@ -1,0 +1,61 @@
+name: arriendo
+description: Proyecto de tesis.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter  
+    
+  flutter_plugin_pdf_viewer: any
+  google_fonts: any 
+  cupertino_icons: any
+  font_awesome_flutter: any
+  http: any
+  carousel_slider: any
+  line_icons: any  
+  flutter_screenutil: any
+  image_picker: any
+  mime: any
+  mime_type: any
+  file_picker: any
+  path_provider: any
+  share: any
+  encrypt: any
+  flutter_map: any
+  geolocator: any
+  flutter_phone_direct_caller: ^1.0.1
+  animate_do: ^2.0.0
+  animated_text_kit: ^4.2.1
+  email_validator: '^1.0.6'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+
+
+flutter_icons:  
+  ios: true
+  android: true
+  image_path: "assets/images/logo.png"  
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/CustomIcons.ttf
